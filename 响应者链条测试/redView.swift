@@ -9,7 +9,20 @@
 import UIKit
 
 class redView: UIView {
-
+    override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
+        print("redHit")
+        let view = super.hitTest(point, with: event)
+        print(view)
+        return view
+    }
+    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+        print("redPointIn")
+        return super.point(inside: point, with: event)
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("redTouchBegin")
+        super.touchesBegan(touches, with: event)
+    }
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.

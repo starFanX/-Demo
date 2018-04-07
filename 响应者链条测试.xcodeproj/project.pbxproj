@@ -14,6 +14,8 @@
 		3297FE57203F17600032B98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3297FE55203F17600032B98F /* LaunchScreen.storyboard */; };
 		3297FE62203F17610032B98F /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3297FE61203F17610032B98F /* _______Tests.swift */; };
 		3297FE6D203F17610032B98F /* _______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3297FE6C203F17610032B98F /* _______UITests.swift */; };
+		3297FE7B203F17720032B98F /* redView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3297FE7A203F17720032B98F /* redView.swift */; };
+		3297FE7D203F17810032B98F /* blueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3297FE7C203F17810032B98F /* blueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3297FE68203F17610032B98F /* 响应者链条测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "响应者链条测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3297FE6C203F17610032B98F /* _______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______UITests.swift"; sourceTree = "<group>"; };
 		3297FE6E203F17610032B98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3297FE7A203F17720032B98F /* redView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redView.swift; sourceTree = "<group>"; };
+		3297FE7C203F17810032B98F /* blueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3297FE53203F17600032B98F /* Assets.xcassets */,
 				3297FE55203F17600032B98F /* LaunchScreen.storyboard */,
 				3297FE58203F17600032B98F /* Info.plist */,
+				3297FE7A203F17720032B98F /* redView.swift */,
+				3297FE7C203F17810032B98F /* blueView.swift */,
 			);
 			path = "响应者链条测试";
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3297FE7D203F17810032B98F /* blueView.swift in Sources */,
+				3297FE7B203F17720032B98F /* redView.swift in Sources */,
 				3297FE4F203F17600032B98F /* ViewController.swift in Sources */,
 				3297FE4D203F17600032B98F /* AppDelegate.swift in Sources */,
 			);
